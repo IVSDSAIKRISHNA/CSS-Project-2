@@ -1,0 +1,239 @@
+.trip{
+    align-content: center;
+    font-size: 45px;
+    position:relative;
+    color: black;
+    text-align: center;
+    float: none;
+    font-weight: bold;
+    
+}
+.trip::before{        
+    content: "";
+    display: flex;
+    width: 150px;
+    height: 2px;
+    background: grey;
+    top:75px;
+    left: 360px;
+    position: relative;
+
+}
+.trip::after{
+    content: "";
+    display: flex;
+    width: 150px;
+    height: 2px;
+    background: grey;
+    top:-66px;
+    left: 760px;
+    position: relative;
+
+}
+
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid red;
+    height: 47vh;
+    top:-35px;
+    width: 28%;
+    position: relative;
+    
+    border-radius: 8px;
+    
+    box-shadow: 5px 5px 10px gray ;
+    margin: auto;
+    
+}
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color:red;
+    
+}
+.div1::after{
+    content: "";
+    display: flex;
+    width: 185px;
+    height: 2px;
+    background: grey;
+    top:-13px;
+    left: 44px;
+    position: relative;
+
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    
+    color: darkred;
+    text-align: center;
+    right: 0px;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.div3{
+    width: 90%;
+    height: 10%;
+    position:absolute;
+    top: 43%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.back{
+    position: relative;
+    top:-40px;
+    right:-250px;
+    color: grey;
+    font-size: 35px;
+    
+}
+.uppercontainer{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+    
+}
+.pop-up{
+    position: relative;
+    top:-360px;
+    left: 35.5%;
+    
+    height: 27vh;
+    width: 28%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 18px;
+    background-color: white;
+    padding: 3px;
+    box-shadow: 3px 3px 10px grey;
+}
+.pop-up-button{
+background-color:red;
+width: 25%;
+height: 20%;
+margin-top: 10px;
+color: white;
+border-radius: 20px;
+border: none;
+position:absolute;
+left:128px;
+font-size: 20px;
+}
+#add-new{
+    opacity:1;
+    font-size: 20px;
+    
+    
+    
+}
+.pop-upbar{
+    margin-top: -5px;
+    border-radius: 4px;
+    width: 75%;
+    height: 20%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+
+}
+.notsure{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.div4{
+    position: relative;
+    left:303px;
+    top: 40vh;
+}
+@media(max-width:600px){
+    .trip{
+        font-size: 3vh;
+    }
+    .trip::before{        
+        content: "";
+        display: none;
+        width: 150px;
+        height: 2px;
+        background: grey;
+        top:75px;
+        left: 360px;
+        position: relative;
+    
+    }
+    .trip::after{
+        content: "";
+        display: none;
+        width: 150px;
+        height: 2px;
+        background: grey;
+        top:-66px;
+        left: 760px;
+        position: relative;
+    
+    }
+    .card1{
+        position: relative;
+        top: 30px;
+        height:300px;
+
+        width: 200px;
+    }
+    .div2{
+        top: 80px;
+        
+
+    }
+    .div3{
+        top: 140px;
+    }
+    .div1::after{
+        content: "";
+        display: flex;
+        width: 160px;
+        height: 2px;
+        background: grey;
+        top:-13px;
+        left: 020px;
+        position: relative;
+    
+    }
+    .div4{
+        position: relative;
+        left:165px;
+        top: 265px;
+    }
+    .back{
+        display: none;
+    }
+    .div5{
+        display: flex;
+        position: relative;
+        top: -140px;
+        right: 15px;
+    }
+    .pop-up{
+        top: -250px;
+        height: 36vw;
+        width: 66%;
+        left: 54px;
+    }
+    .pop-up-button{
+        
+        bottom: 5px;
+        left: 90px;
+    }
+    
+}
+
