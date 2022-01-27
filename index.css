@@ -120,6 +120,13 @@
     box-shadow: 5px 5px 10px gray ;
     margin:auto ;
 }
+.butto{
+    position: relative;
+    left: -10px;
+}
+.butto1{
+    display: none;
+}
 
 @media(max-width:600px){
 
@@ -168,6 +175,17 @@
         height: 23vw;
         margin-top: 30px;
     }
+    .butto{
+    display: none;
+
+}
+.butto1{
+    display: flex;
+    position: relative;
+    top: 240px;
+    left: 50px;
+    
+}
 
 
 }
